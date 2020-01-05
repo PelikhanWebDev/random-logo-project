@@ -10,7 +10,6 @@
 // DEFINE CATEGORIES WITH KEYWORDS //
 
 var animals = [
-    "bear",
     "bee",
     "beetle",
     "bull",
@@ -21,10 +20,14 @@ var animals = [
     "elephant",
     "giraffe",
     "goose",
+    "grizzly bear",
+    "ice bear",
+    "koala bear",
     "monkey",
     "pelican",
     "penguin",
     "shark",
+    "snake",
     "spider",
     "swan",
     "tiger",
@@ -91,6 +94,10 @@ var letters = [
     "letter y",
     "letter z"
 ];
+var moods = [
+    "happy",
+    "sad"
+];
 var music = [
     "banjo",
     "bass guitar",
@@ -136,13 +143,13 @@ var shapes = [
     "hexagon",
     "pentagon",
     "square",
+    "star",
     "triangle"
 ];
 var sports = [
     "archery",
     "baseball",
     "basketball",
-    "cycling",
     "diving",
     "fencing",
     "fishing",
@@ -164,6 +171,7 @@ var things = [
     "book",
     "cd",
     "christmas",
+    "cloud",
     "daggers",
     "devil",
     "drugs",
@@ -177,11 +185,20 @@ var things = [
     "vinyl",
     "wood"
 ];
+var transport = [
+    "bicycle",
+    "book",
+    "car",
+    "motorcycle",
+    "plane",
+    "rocket",
+    "train"
+];
 
 
 // COMBINE ALL CATEGORIES INTO A SINGLE ARRAY //
 
-var items = animals.concat(buildings, continents, countries, jobs, letters, music, numbers, plants, shapes, sports, things);
+var items = animals.concat(buildings, continents, countries, jobs, letters, moods, music, numbers, plants, shapes, sports, things, transport);
 
 
 // SHUFFLE ARRAY //
